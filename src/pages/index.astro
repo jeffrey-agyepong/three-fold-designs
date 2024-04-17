@@ -28,7 +28,7 @@ const projects = (await getCollection("work"))
 <BaseLayout>
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
-			<header class="hero">
+			<header class="hero mb-8">
 				<Hero
 					title="Hello, we are Threefold Designs"
 					tagline="We are a small team of designers and developers who help businesses grow."
@@ -42,17 +42,15 @@ const projects = (await getCollection("work"))
 				</Hero>
 			</header>
 		</div>
-
-		<Skills />
 	</div>
 
 	<main class="wrapper stack gap-20 lg:gap-48">
-		<section class="section with-background with-cta">
-			<header class="section-header stack gap-2 lg:gap-4">
-				<h3>Selected Work</h3>
+		<section class="section with-background with-cta mb-8">
+			<header class="section-header stack gap-2 lg:gap-4 mt-10">
+				<h3>Our Work</h3>
 				<p>
 					Take a look below at some of my featured work for clients
-					from the past few years.
+					from the past few months.
 				</p>
 			</header>
 
@@ -67,44 +65,11 @@ const projects = (await getCollection("work"))
 					}
 				</Grid>
 			</div>
-
-			<div class="cta">
-				<CallToAction href="/work/">
-					View All
-					<Icon icon="arrow-right" size="1.2em" />
-				</CallToAction>
-			</div>
-		</section>
-
-		<section class="section with-background bg-variant">
-			<header class="section-header stack gap-2 lg:gap-4">
-				<h3>Mentions</h3>
-				<p>
-					I have been fortunate enough to receive praise for my work
-					in several publications. Take a look below to learn more.
-				</p>
-			</header>
-
-			<div class="gallery">
-				<Grid variant="small">
-					{
-						[
-							"Medium",
-							"BuzzFeed",
-							"The Next Web",
-							"awwwards.",
-							"TechCrunch",
-						].map((brand) => (
-							<li class="mention-card">
-								<p>{brand}</p>
-							</li>
-						))
-					}
-				</Grid>
-			</div>
 		</section>
 	</main>
-
+	<section class="mt-9 mb-9">
+		<Skills />
+	</section>
 	<ContactCTA />
 </BaseLayout>
 

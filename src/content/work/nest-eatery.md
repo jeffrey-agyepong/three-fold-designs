@@ -1,15 +1,17 @@
 ---
-title: Markdown Mystery Tour
+title: Nest Eatery
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
+img: /assets/nest.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  We redesigned the Nest Eatery website
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Divi
+  - WordPress
+  - PHP
 ---
+
+![Alt Text](/assets/old-nest.jpg) 
 
 ## Level-two heading
 
