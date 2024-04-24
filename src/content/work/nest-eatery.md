@@ -11,5 +11,7 @@ tags:
   - PHP
 ---
 
-https://jagyepong.com/nest/
-![Alt Text](/assets/old-nest.jpg)
+![Nest Eatery Old](https://ik.imagekit.io/boxhuwbys/nest.webp?updatedAt=1713923876320)
+![Nest Eatery New](https://ik.imagekit.io/boxhuwbys/nest-2.webp?updatedAt=1713923893901)
+
+<a href="https://naitsa-a.web.dmitcapstone.ca/wordpress/" target="_blank">View Site</a>
