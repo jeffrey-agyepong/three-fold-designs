@@ -17,7 +17,7 @@ tags:
 ![Lighthouse new](https://ik.imagekit.io/boxhuwbys/open-sky-lighthouse.png?updatedAt=1713982074020)
 
 <div class="flex justify-center">
-<a href="https://openskymentalhealth.com/" target="_blank" class="px-4 py-2 bg-gray-100 no-underline text-black rounded-lg shadow-lg hover:bg-gray-600 transition duration-300 ease-in-out inline-block text-center mx-auto">
+<a href="https://jagyepong.com/openskymentalhealth/" target="_blank" class="px-4 py-2 bg-gray-100 no-underline text-black rounded-lg shadow-lg hover:bg-gray-600 transition duration-300 ease-in-out inline-block text-center mx-auto">
  View Site
 </a>
 </div>
